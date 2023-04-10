@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-CondBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-CondLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-CondLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/home/home.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/home/home.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/home.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +87,7 @@
       <updated>1681113076942</updated>
       <workItem from="1681113077939" duration="142000" />
       <workItem from="1681113222042" duration="17000" />
-      <workItem from="1681113241584" duration="5825000" />
+      <workItem from="1681113241584" duration="6403000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -118,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681116474231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Fonts and added react-router-dom and implemented basic routing">
+      <created>1681121073367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681121073367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +127,7 @@
     <MESSAGE value="Added initial categories" />
     <MESSAGE value="Added Category item component and Styles" />
     <MESSAGE value="Added Directory Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Directory Component" />
+    <MESSAGE value="Updated Fonts and added react-router-dom and implemented basic routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Fonts and added react-router-dom and implemented basic routing" />
   </component>
 </project>
