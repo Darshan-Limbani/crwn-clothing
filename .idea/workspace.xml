@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/categories.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/category-item/category-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/category-item/category-item.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/category-item/directory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/categories.styles.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <updated>1681113076942</updated>
       <workItem from="1681113077939" duration="142000" />
       <workItem from="1681113222042" duration="17000" />
-      <workItem from="1681113241584" duration="2718000" />
+      <workItem from="1681113241584" duration="3207000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -83,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681113780399</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Category item component and Styles">
+      <created>1681115990323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681115990324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added initial categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added initial categories" />
+    <MESSAGE value="Added Category item component and Styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Category item component and Styles" />
   </component>
 </project>
