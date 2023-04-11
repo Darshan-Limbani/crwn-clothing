@@ -9,13 +9,6 @@ import './navigation.styles.scss';
 const Navigation = () => {
 
     const {currentUser, setCurrentUser} = useContext(UserContext);
-    console.log(currentUser);
-
-    const signOutHandler = async () => {
-
-        await signOutUser();
-        setCurrentUser(null);
-    };
 
     return (<Fragment>
         <div className={'navigation'}>
@@ -26,7 +19,7 @@ const Navigation = () => {
                 <Link to={'/shop'} className={'nav-link'}>
                     SHOP
                 </Link>
-                {currentUser ? (<span className={'nav-link'} onClick={signOutHandler}>SIGN OUT</span>) : (
+                {currentUser ? (<span className={'nav-link'} onClick={signOutUser}>SIGN OUT</span>) : (
                     <Link to={'/auth'} className={'nav-link'}>
                         SIGN IN
                     </Link>)}
