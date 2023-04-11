@@ -1,4 +1,5 @@
-import {useState} from "react";
+import {useContext, useState} from "react";
+import {UserContext} from "../../context/user.context";
 import {signInAuthUserWithEmailAndPassword, signInWithGooglePopup} from "../../utils/firebase/firebase.utils";
 import Button from "../button/button.component";
 import FormInput from "../form-input/form-input.component";
@@ -9,10 +10,10 @@ const defaultFormFields = {
     email: '', password: '',
 };
 const SignInForm = () => {
-
     const [formFields, setFormFields] = useState(defaultFormFields);
-
     const {email, password} = formFields;
+
+    const {setCurrentUser} = useContext(UserContext);
 
     const handleChange = (event) => {
         const {name, value} = event.target;
@@ -26,16 +27,28 @@ const SignInForm = () => {
 
     const signWithGoogle = async () => {
         const {user} = await signInWithGooglePopup();
+
         console.log(user);
     };
 
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await signInAuthUserWithEmailAndPassword(email, password);
-            console.log(response);
+            const {user} = await signInAuthUserWithEmailAndPassword(email, password);
+            setCurrentUser(user);
+
             resetFormFields();
         } catch (error) {
+            switch (error.code) {
+                case 'auth/wrong-password':
+                    alert('incorrect password for email');
+                    break;
+                case 'auth/user-not-found':
+                    alert('no user associated with this email');
+                    break;
+                default:
+                    console.log(error);
+            }
         }
     };
 
@@ -44,17 +57,14 @@ const SignInForm = () => {
         <h1>Sign in with your email and password</h1>
         <form onSubmit={handleSubmit}>
 
-
-            <label>Email</label>
             <FormInput label={"Email"} type={"email"} required name={'email'} onChange={handleChange}
                        value={email}/>
 
-            <label>Password</label>
             <FormInput label={"Password"} type={"password"} required name={'password'} onChange={handleChange}
                        value={password}/>
             <div className={'buttons-container'}>
                 <Button type={'submit'}>Sign In</Button>
-                <Button buttonType="google" onClick={signWithGoogle}>Google sign in</Button></div>
+                <Button type={'button'} buttonType="google" onClick={signWithGoogle}>Google sign in</Button></div>
         </form>
     </div>);
 };

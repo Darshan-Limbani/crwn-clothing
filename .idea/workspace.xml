@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/user.context.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/sign-in/authentication.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/sign-in/authentication.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sign-in/authentication.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/sign-in/authentication.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/lcom/darshan-limbani/react-js/crwn-clothing/src/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -94,7 +96,7 @@
       <workItem from="1681113222042" duration="17000" />
       <workItem from="1681113241584" duration="9587000" />
       <workItem from="1681125557205" duration="3311000" />
-      <workItem from="1681194968098" duration="16413000" />
+      <workItem from="1681194968098" duration="18403000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681212695098</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Created and Styling the Sign in Component and Added Google SignIn using firebase">
+      <created>1681214086722</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681214086722</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +224,7 @@
     <MESSAGE value="SignIn with SignUpForm" />
     <MESSAGE value="Added Styles to the SignUp Form" />
     <MESSAGE value="Created and Styling the Button Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created and Styling the Button Component" />
+    <MESSAGE value="Created and Styling the Sign in Component and Added Google SignIn using firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created and Styling the Sign in Component and Added Google SignIn using firebase" />
   </component>
 </project>
