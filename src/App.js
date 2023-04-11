@@ -6,7 +6,6 @@ import Shop from "./routes/shop/shop.component";
 import Authentication from "./routes/sign-in/authentication.component";
 
 const App = () => {
-
     return (
         <Routes>
             <Route path={'/'} element={<Navigation/>}>
