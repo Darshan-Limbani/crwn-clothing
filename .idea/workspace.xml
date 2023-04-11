@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/product-card/product-card.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/product-card/product-card.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/shop/shop.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/shopping-bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/shop/shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1681113222042" duration="17000" />
       <workItem from="1681113241584" duration="9587000" />
       <workItem from="1681125557205" duration="3311000" />
-      <workItem from="1681194968098" duration="25368000" />
+      <workItem from="1681194968098" duration="26379000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681223225538</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Styling Shop Component">
+      <created>1681224166931</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681224166931</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +261,7 @@
     <MESSAGE value="use of UserContext for signIn and signOut" />
     <MESSAGE value="Optimizing UserContext using firebase" />
     <MESSAGE value="Created Shop Component and Product Context" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Shop Component and Product Context" />
+    <MESSAGE value="Styling Shop Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling Shop Component" />
   </component>
 </project>
