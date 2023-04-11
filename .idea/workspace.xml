@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
+    <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="SignIn with SignUpForm">
+      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1681113222042" duration="17000" />
       <workItem from="1681113241584" duration="9587000" />
       <workItem from="1681125557205" duration="3311000" />
-      <workItem from="1681194968098" duration="11832000" />
+      <workItem from="1681194968098" duration="14852000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -166,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681207621465</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="SignIn with SignUpForm">
+      <created>1681209394915</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681209394915</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +193,7 @@
     <MESSAGE value="Created Users Document in firebase" />
     <MESSAGE value="Added SignIn With GoogleRedirect" />
     <MESSAGE value="Added SignUpForm Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SignUpForm Component" />
+    <MESSAGE value="SignIn with SignUpForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="SignIn with SignUpForm" />
   </component>
 </project>
