@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
+    <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="Added Cart items count to Cart Icon">
+      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/checkout/checkout.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/checkout/checkout.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/cart.context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/cart.context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/cart.context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/cart.context.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,7 @@
       <workItem from="1681113241584" duration="9587000" />
       <workItem from="1681125557205" duration="3311000" />
       <workItem from="1681194968098" duration="26574000" />
-      <workItem from="1681281515278" duration="6687000" />
+      <workItem from="1681281515278" duration="14254000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -264,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681287283333</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added Cart items count to Cart Icon">
+      <created>1681288237681</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681288237681</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +305,7 @@
     <MESSAGE value="Fixes cart icon styling" />
     <MESSAGE value="Created Cart Context and toggling the cart dropdown" />
     <MESSAGE value="Added Cart Items to Cart using Cart Context." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Cart Items to Cart using Cart Context." />
+    <MESSAGE value="Added Cart items count to Cart Icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Cart items count to Cart Icon" />
   </component>
 </project>
