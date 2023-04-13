@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory-item/directory-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory-item/directory-item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/home/home.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/home.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/categories.Context.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/categories.Context.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/user.context.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/user.context.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,8 @@
       <workItem from="1681125557205" duration="3311000" />
       <workItem from="1681194968098" duration="26574000" />
       <workItem from="1681281515278" duration="25771000" />
+      <workItem from="1681311725551" duration="52000" />
+      <workItem from="1681367604521" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -284,14 +285,20 @@
       <option name="project" value="LOCAL" />
       <updated>1681308103865</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added Redirect from home page">
+      <created>1681311751766</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681311751766</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Directory Component" />
     <MESSAGE value="Updated Fonts and added react-router-dom and implemented basic routing" />
     <MESSAGE value="Nested Routing and Outlet" />
     <MESSAGE value="Persisting the Navigation" />
@@ -316,6 +323,7 @@
     <MESSAGE value="Added Cart items count to Cart Icon" />
     <MESSAGE value="Created Checkout page along with checkout items and cart functionality" />
     <MESSAGE value="updating shop-data and components, created nested routes for shop, fixed styling clash and improved solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating shop-data and components, created nested routes for shop, fixed styling clash and improved solution" />
+    <MESSAGE value="Added Redirect from home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Redirect from home page" />
   </component>
 </project>
