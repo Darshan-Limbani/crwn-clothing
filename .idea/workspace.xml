@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/root-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user/user.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user/user.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user/user.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/user/user.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/category/category.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/category/category.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/category/category.selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/category/category.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/user.context.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/user.context.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/categories.Context.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/user.context.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.compoent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.compoent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/category/category.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/category/category.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/shop/shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/user/user.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1681281515278" duration="25771000" />
       <workItem from="1681311725551" duration="52000" />
       <workItem from="1681367604521" duration="8430000" />
-      <workItem from="1681380214879" duration="8482000" />
+      <workItem from="1681380214879" duration="10687000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -321,14 +321,20 @@
       <option name="project" value="LOCAL" />
       <updated>1681373967649</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Created UserStore using Redux">
+      <created>1681389477390</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681389477390</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Persisting the Navigation" />
     <MESSAGE value="Styling the Navigation Component" />
     <MESSAGE value="signIn With GooglePopup(Google Authentication)" />
     <MESSAGE value="Created Users Document in firebase" />
@@ -353,6 +359,7 @@
     <MESSAGE value="Added Redirect from home page" />
     <MESSAGE value="Replacing userState with userReducer" />
     <MESSAGE value="Replacing cartContext with cartReducer and created helper function for dispatching the action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replacing cartContext with cartReducer and created helper function for dispatching the action" />
+    <MESSAGE value="Created UserStore using Redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created UserStore using Redux" />
   </component>
 </project>

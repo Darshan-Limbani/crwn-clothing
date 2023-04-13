@@ -13,6 +13,7 @@ import {
 } from 'firebase/auth';
 
 import {collection, doc, getDoc, getDocs, getFirestore, query, setDoc, writeBatch} from 'firebase/firestore';
+import {setCategoriesMap} from "../../store/category/category.action";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAHs5ig77PISgvm3hjeOTlTBwt3sILnO_g",
