@@ -44,9 +44,8 @@ const CART_ACTION_TYPE = {
     SET_CART_ITEMS: 'SET_CART_ITEMS', SET_IS_CART_OPEN: 'SET_IS_CART_OPEN'
 };
 
-
 const INITIAL_STATE = {
-    isCartOpen: true, cartItems: [], cartCount: 0, cartTotal: 0
+    isCartOpen: false, cartItems: [], cartCount: 0, cartTotal: 0
 };
 
 const cartReducer = (state, action) => {

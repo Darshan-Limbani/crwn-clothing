@@ -1,7 +1,8 @@
 import {useEffect} from "react";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {Route, Routes} from "react-router-dom";
-import {setCategoriesMap} from "../../store/category/category.action";
+import {selectCartItems, selectIsCartOpen} from "../../store/cart/cart.selector";
+import {setCategories} from "../../store/category/category.action";
 import {getCategoriesAndDocuments} from "../../utils/firebase/firebase.utils";
 import CategoriesPreview from "../categories-preview/categories-preview.compoent";
 import Category from "../category/category.component";
@@ -9,13 +10,15 @@ import './shop.styles.scss';
 
 const Shop = () => {
 
+    const cartItems = useSelector(selectCartItems);
+    const isOpen = useSelector(selectIsCartOpen);
     const dispatch = useDispatch();
     useEffect(() => {
-        const getCategories = async () => {
-            const categoryMap = await getCategoriesAndDocuments();
-            dispatch(setCategoriesMap(categoryMap));
+        const getCategoriesMap = async () => {
+            const categoriesArray = await getCategoriesAndDocuments('categories');
+            dispatch(setCategories(categoriesArray));
         };
-        getCategories();
+        getCategoriesMap();
     }, []);
 
     return (<Routes>

@@ -13,7 +13,6 @@ import {
 } from 'firebase/auth';
 
 import {collection, doc, getDoc, getDocs, getFirestore, query, setDoc, writeBatch} from 'firebase/firestore';
-import {setCategoriesMap} from "../../store/category/category.action";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAHs5ig77PISgvm3hjeOTlTBwt3sILnO_g",
@@ -59,12 +58,14 @@ export const getCategoriesAndDocuments = async () => {
 
     const querySnapshot = await getDocs(q);
 
-    const categoryMap = querySnapshot.docs.reduce((acc, docsSnapshot) => {
-        const {title, items} = docsSnapshot.data();
-        acc[title.toLowerCase()] = items;
-        return acc;
-    }, {});
-    return categoryMap;
+    return querySnapshot.docs.map(docSnapShot => docSnapShot.data());
+
+    //    .reduce((acc, docsSnapshot) => {
+    //     const {title, items} = docsSnapshot.data();
+    //     acc[title.toLowerCase()] = items;
+    //     return acc;
+    // }, {});
+    // return categoryMap;
 };
 
 
