@@ -12,12 +12,9 @@ import './navigation.styles.scss';
 
 const Navigation = () => {
 
-    // const {currentUser, setCurrentUser} = useContext(UserContext);
     const currentUser = useSelector(selectCurrentUser);
 
     const isCartOpen = useSelector(selectIsCartOpen);
-    console.log("isCartOpen Navigation=====>", isCartOpen);
-
 
     return (<Fragment>
         <div className={'navigation'}>

@@ -6,12 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/categories/category.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/categories/category.saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/root-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/root-saga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/user/user.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/user/user.saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681550440725</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Created userSaga For Authentication">
+      <created>1681554529905</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681554529905</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Styles to the SignUp Form" />
     <MESSAGE value="Created and Styling the Button Component" />
     <MESSAGE value="Created and Styling the Sign in Component and Added Google SignIn using firebase" />
     <MESSAGE value="Created UserContext" />
@@ -420,6 +428,7 @@
     <MESSAGE value="Created Category Saga" />
     <MESSAGE value="move out getUser from component" />
     <MESSAGE value="getCurrentUser in saga" />
-    <option name="LAST_COMMIT_MESSAGE" value="getCurrentUser in saga" />
+    <MESSAGE value="Created userSaga For Authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created userSaga For Authentication" />
   </component>
 </project>
