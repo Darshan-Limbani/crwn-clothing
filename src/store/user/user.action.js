@@ -4,7 +4,7 @@ import {USER_ACTION_TYPES} from "./user.types";
 export const setCurrentUser = (user) => createAction(USER_ACTION_TYPES.SET_CURRENT_USER, user);
 
 
-export const checkUseSession = () => createAction(USER_ACTION_TYPES.CHECK_USER_SESSION);
+export const checkUserSession = () => createAction(USER_ACTION_TYPES.CHECK_USER_SESSION);
 
 export const googleSignInStart = () => createAction(USER_ACTION_TYPES.GOOGLE_SIGN_IN_START);
 
