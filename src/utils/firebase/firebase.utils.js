@@ -110,3 +110,17 @@ export const signInAuthUserWithEmailAndPassword = async (email, password) => {
 export const signOutUser = async () => signOut(auth);
 
 export const onAuthStateChangedListener = (callback) => onAuthStateChanged(auth, callback);
+
+
+export const getCurrentUser = () => {
+
+    return new Promise((resolve, reject) => {
+        const unscbscribe = onAuthStateChanged(auth,
+            (userAuth) => {
+                unscbscribe();
+                resolve(userAuth);
+            },
+            reject);
+    });
+
+};
