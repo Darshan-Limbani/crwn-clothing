@@ -13,7 +13,7 @@ import {getCurrentUser} from "./utils/firebase/firebase.utils";
 const App = () => {
     const dispatch = useDispatch();
     useEffect(() => {
-        getCurrentUser().then((user) => console.log(user));
+        getCurrentUser();
     }, []);
     return (<Routes>
         <Route path={'/'} element={<Navigation/>}>
