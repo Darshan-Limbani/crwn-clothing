@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/payment-form/payment-form.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/payment-form/payment-form.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/util/stripe.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_redirects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netlify/functions/create-payment-intent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/button/button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/checkout/checkout.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/categories/category.saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button.style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/payment-form/payment-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/payment-form/payment-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product-card/product-card.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-card/product-card.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +131,7 @@
       <workItem from="1681367604521" duration="8430000" />
       <workItem from="1681380214879" duration="16345000" />
       <workItem from="1681462061210" duration="15338000" />
-      <workItem from="1681709929710" duration="6366000" />
+      <workItem from="1681709929710" duration="13862000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
