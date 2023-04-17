@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d721adac-e3b7-40d9-8715-f99aa29552d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/payment-form/payment-form.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/payment-form/payment-form.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/util/stripe.util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/root-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/root-saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user/user.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user/user.saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/checkout/checkout.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,25 +65,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "redux-saga",
-    "last_opened_file_path": "/home/lcom/Desktop/Lang/context-api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys",
-    "ts.external.directory.path": "/snap/webstorm/311/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;redux-saga&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lcom/Desktop/Lang/context-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/311/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/store" />
@@ -126,6 +129,7 @@
       <workItem from="1681367604521" duration="8430000" />
       <workItem from="1681380214879" duration="16345000" />
       <workItem from="1681462061210" duration="15338000" />
+      <workItem from="1681709929710" duration="6366000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial categories">
       <created>1681113780399</created>
@@ -386,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681554529905</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Completed UserSaga (authentication,SignUp,SignIn, SignOut)">
+      <created>1681557318267</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681557318267</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created and Styling the Button Component" />
     <MESSAGE value="Created and Styling the Sign in Component and Added Google SignIn using firebase" />
     <MESSAGE value="Created UserContext" />
     <MESSAGE value="use of UserContext for signIn and signOut" />
@@ -429,6 +439,7 @@
     <MESSAGE value="move out getUser from component" />
     <MESSAGE value="getCurrentUser in saga" />
     <MESSAGE value="Created userSaga For Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created userSaga For Authentication" />
+    <MESSAGE value="Completed UserSaga (authentication,SignUp,SignIn, SignOut)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed UserSaga (authentication,SignUp,SignIn, SignOut)" />
   </component>
 </project>
